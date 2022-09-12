@@ -1,0 +1,233 @@
+<!--Landing page of sunnyside-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+      <!--meta tags-->
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>SunnySide | landing page</title>
+      <link rel="icon" href="imagenes/favicon-32x32.png">
+
+      <!--css documents-->
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="responsive.css">
+
+      <!--Google fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+      <!--Fontawesome-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glider-js/1.7.3/glider.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+      <link rel="stylesheet" href="#">
+      <!--JS-->
+      <script src="logic.js"></script>
+
+</head>
+<body>
+
+      <!--Secction 1 header-->
+      <header>
+            <section class="top">
+                  <div class="logo">
+                        <img src="imagenes/logo.svg">
+                  </div>
+                  <nav>
+                        <button><a href="#">About</a></button>
+                        <button><a href="#">Serveces</a></button>
+                        <button><a href="#">Projects</a></button>
+                        <button><a href="#">Contect</a></button>
+                  </nav>
+                  <div class="amburger">
+                        <img src="imagenes/icon-hamburger.svg" id="open" onclick="opne()">
+                  </div>
+
+                  <section class="navegador" id="n">
+                        <div class="close">
+                              <i class="fa-solid fa-x" onclick="cerrar()"></i>
+                        </div>
+                        <div>
+                              <button><a href="#">About</a></button>
+                              <button><a href="#">Serveces</a></button>
+                              <button><a href="#">Projects</a></button>
+                              <button><a href="#">Contect</a></button>
+                        </div>
+                  </section>
+            </section>
+
+
+            <div class="titulo">
+                  <h1>we are creatives</h1>
+                  <!--Arrow going down-->
+                  <img src="imagenes/icon-arrow-down.svg" id="c">
+            </div>
+      </header>
+
+      <!--Secction 2 main-->
+      <main>
+
+            <!--Main information-->
+            <article>
+                  <section>
+                        <div class="info">
+                              <h3>Transform your brand</h3>
+                              <p>
+                                    We are a full-service creative agency specializing 
+                                    in helping brands grow fast. Engage your clients 
+                                    through compelling visuals that do most of the marketing 
+                                    for you.
+                              </p>
+                              <div class="boton">
+                                    <a href="#" class="ctres">lear more</a>
+                              </div>
+                        </div>
+
+                        <div class="img-1">
+                              <img src="imagenes/desktop/image-transform.jpg">
+                        </div>
+                  </section>
+
+                  <section class="randome">
+                        <div class="img">
+                              <img src="imagenes/desktop/image-stand-out.jpg">
+                        </div>
+
+                        <div class="info">
+                              <h3>Stand out to the right audience</h3>
+                              <p>
+                                    Using collaborative formula of designers, researchers 
+                                    photographers, videographers and copywriters, we'll 
+                                    build and extend your brand in digital places.
+                              </p>
+                              <div class="boton">
+                                    <a href="#" class="cdos">lear more</a>
+                              </div>
+                        </div>
+                  </section>
+
+                  <!--desing and photography-->
+                  <section class="down">
+                        <div class="uno">
+
+                              <div>
+                                    <img src="imagenes/desktop/image-graphic-design.jpg" alt="">
+                              </div>
+                              <div class="letras">
+                                    <h3>Graphic Design</h3>
+                                    <p>
+                                          Great design makes you memorable. We deliver 
+                                          artwork that underscores your brand message and 
+                                          captures potential clients' attention. 
+                                    </p>
+                              </div>
+                        </div>
+      
+                        <div class="dos">
+                              <div>
+                                    <img src="imagenes/desktop/image-photography.jpg" alt="">
+                              </div>
+                              <div class="letras"> 
+                                    <h3>Photography</h3>
+                                    <p>
+                                          Increase your credibility by getting the most stunning, 
+                                          high-queality photos that improve your business image.  
+                                    </p>
+                              </div>
+                        </div>
+                  </section>
+            </article>
+
+            <!-- secction 3 Client testimonals-->
+            <section class="client">
+
+                  <div> 
+                        <h3>client testimonials</h3>
+                  </div>
+
+                  <div class="principal">
+                        <div class="imagen">
+                              <img src="imagenes/image-emily.jpg">
+                        </div>
+                        <p>
+                              We put our in sunnyside and they 
+                              delivered, making sure our need
+                              were met and deadlines were always 
+                              hit.
+                        </p>
+                        <ul>
+                              <li>Emily R.</li>
+                              <li>Marketing Director</li>
+                        </ul>
+                  </div>
+
+                  <div class="principal">
+                        <div class="imagen">
+                              <img src="imagenes/image-thomas.jpg">
+                        </div>
+                        <p>
+                              Sunnyside's enthusiasm coupled with their
+                              keen interest in our brand's success made it 
+                              a satisfying and enjoyable experience.
+                        </p>
+                        <ul>
+                              <li>Thomas S.</li>
+                              <li>Chief Operating Officer</li>
+                        </ul>
+                  </div>
+
+                  <div class="principal">
+                        <div class="imagen">
+                              <img src="imagenes/image-jennie.jpg">
+                        </div>
+                        <p>
+                              Incredible and result! Our sales increased
+                              over 400% when we worked with Sunnysied. 
+                              Highly recommended!
+                        </p>
+                        <ul>
+                              <li>Jennie F.</li>
+                              <li>Businnes Owner</li>
+                        </ul>
+                  </div>
+            </section>
+
+            <!--4 4photos-->
+            <section class="four-photos">
+                  <div>
+                        <img src="imagenes/desktop/image-gallery-milkbottles.jpg">
+                  </div>
+                  <div>
+                        <img src="imagenes/desktop/image-gallery-orange.jpg">
+                  </div>
+                  <div>
+                        <img src="imagenes/desktop/image-gallery-cone.jpg">
+                  </div>
+                  <div>
+                        <img src="imagenes/desktop/image-gallery-sugarcubes.jpg">
+                  </div>
+            </section>
+      </main>
+
+      <!--5 footer-->
+      <footer>
+            <div class="imgen">
+                  <img src="imagenes/logo.svg">
+            </div>
+
+            <div>
+                  <a href="#">About</a>
+                  <a href="#">Services</a>
+                  <a href="#">Projects</a>
+            </div>
+
+            <div>
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+      </footer>
+</body>
+</html>
