@@ -51,22 +51,13 @@ header .top nav{
 
       border: none;
       width: 6rem;
-      padding: .5rem;
-      border-radius: 1rem;
+      padding: 1em;
+      border-radius: 0.5em;
       background-color: transparent;
 }
 .top nav button:hover{
 
       background-color: rgba(238, 238, 238, 0.445);
-      text-transform: uppercase;
-}
-.top nav button a{
-
-      text-decoration: none;
-      color: white;
-      font-family: 'Barlow', sans-serif;
-      font-weight: 600;
-      font-size: 1.1rem;
 }
 .navegador{
 
